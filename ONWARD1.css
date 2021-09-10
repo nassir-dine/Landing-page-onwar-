@@ -1,0 +1,214 @@
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;	
+}
+body
+{
+margin : 0;
+padding: 0;
+font-family:arial;
+background: url(images/onward1.png)no-repeat center;
+background-size: cover;
+
+}
+
+/* div text-container */
+
+.text-container
+{
+width:1300px;
+height:620px;
+background: url(images/onward1-1.png)no-repeat center;
+background-size: 1368px;
+margin-top: 1.50%;
+margin-left: 2.5%;
+text-align: center;
+border: 5px solid #ffffff;
+border-color: #fff;
+border-radius: 15px;
+}
+
+html{
+scroll-behavior: smooth;
+}
+.max-width{
+max-width: 1300px;
+padding: 0 80px;
+margin: auto;
+}
+.navbar {
+position: fixed;
+width: 100%;
+z-index: 999;
+padding: 30px 0;
+font-family: 'Ubuntu',sans-serif;
+transition: all 0.3s ease;
+
+}
+.login{
+position: absolute;
+width: 125px;
+height: 35px;
+margin-left: 940px;
+border-radius: 30px;
+border:2px solid rgb(252, 250, 250);
+font-size: 22px;
+
+}
+
+.navbar .max-width {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar .logo a{
+color: #fff;
+font-size: 35px;
+font-weight: 600;
+
+}
+.navbar .logo a span{
+color: #fff;
+transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+color: #fff;
+}
+.navbar .menu li{
+list-style: none;
+display: inline-block;
+margin-left: 25px;
+
+}
+.navbar.memu li a{
+display: block;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+margin-left: 25px;
+transition: color 0.3s ease;
+} 
+.navbar .menu li a:hover{
+color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+color: #fff;
+}
+/*menu btn styling*/
+.menu-btn{
+color: #fff;
+font-size: 20px;
+cursor: pointer;
+}
+/*home section styling*/
+.home{
+display: flex;
+color: #fff;
+min-height: 500px;
+font-family: 'Ubuntu',sans-serif;
+}
+.home .max-width{
+margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+font-size: 27px;
+margin-left: -225px;
+}
+.home .home-content .text-2{
+font-size: 75px;
+font-weight: 600;
+margin-left: -210px;
+letter-spacing: 2px;
+}
+hr{
+    width: 420px;   
+}
+.home .home-content .text-3{
+font-size: 12px;
+margin: 5px 0;
+margin-left: -3px;
+}
+.text-3 {
+width: 400px;
+margin-left: -5px;
+text-align: justify;
+}
+pre{
+    font-size: 18px;
+    margin-left: -2px;
+}
+.home .home-content .text-3 span{
+color: crimson;
+font-weight: 500px;
+
+}
+.home .home-content a{
+display: inline-block;
+color: #fff;
+font-size: 17px;
+padding: 0px 36px;
+margin-top: 20px;
+transition: all 0.3s ease;
+margin-left: -350px; 
+text-align: center;
+}
+.fleche a{
+width: 185px;
+height: 25px;
+margin-left: 10000px;
+margin-right: 30px;
+border-radius: 30px;
+border:2px solid snow;
+}
+.typin {
+width: 185px;
+height: 35px;
+flex: 1;
+ color: #fff;
+font-size: 17px; 
+padding: 1em;
+margin-left: 360px;
+margin-top: -60px;
+text-align: center;
+} 
+
+.home .home-content a:hover{
+color: crimson;
+background: none;
+}
+
+/* section video style */
+
+.card1 img{
+width: calc(15% - 20px);
+height: 110px;
+background: #222;
+text-align: center;
+border-radius: 6px;
+padding: 0px 0px;
+cursor: pointer;
+transition: all 0.3s ease ;
+margin-top: 12px;
+margin-bottom: 0px;
+margin-left: -900px;
+}
+
+.card2 .video{
+width: calc(15% - 20px);
+height: 110px;
+background: #222;
+text-align: center;
+border-radius: 6px;
+cursor: pointer;
+transition: all 0.3s ease ;
+margin-top: -140px;
+margin-left: -445px;
+margin-bottom: 1.5%;
+
+}
+
